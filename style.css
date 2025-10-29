@@ -1,3 +1,4 @@
+/*
 @import url('https://foogleapis.com/css2?family=Cormorant+Garamond:wght@400;700&family=Poppins:wght@300;400;500;600&display=swap');
 
 html {
@@ -59,4 +60,175 @@ body {
     font-size: 50px;
     margin-top: 30px;
 
+}
+*/
+
+body {
+  margin: 0;
+  background-color: #caa85e;
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+h2 {
+  color: #6e4b16;
+}
+
+a {
+  text-decoration: none;
+}
+
+
+/* Nab*/
+.navbar {
+  background-color: #6e4b16;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 50px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 1.2rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links a {
+  color: #fff;
+  transition: 0.3s;
+  padding: 6px 10px;
+  border-radius: 5px;
+}
+
+.nav-links a:hover,
+.nav-links a.active {
+  background-color: #dabe96;
+  color: #6e4b16;
+}
+
+/*Container  */
+.main-container {
+  width: 90%;
+  max-width: 1000px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+/* Tarjetas*/
+.card {
+  background-color: #fff;
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.tech-buttons button {
+  background-color: #6e4b16;
+  color: #f0e1c6;
+  border: none;
+  border-radius: 20px;
+  padding: 8px 18px;
+  margin: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.tech-buttons button:hover {
+  background-color: #dabe96;
+  color: #6e4b16;
+}
+
+.mi-gif{
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+}
+
+/* Contacto */
+.contact {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.contact-item {
+  flex: 1 1 200px;
+}
+
+/* Portafolio*/
+.portfolio-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.project-card {
+  background-color: #f8f5ef;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #dabe96;
+}
+
+.imagen-ama{
+  width: 200px; 
+  height: 200px;
+  text-align: center;
+  margin-left: 40px;
+}
+
+.imagen-sport{
+  width: 200px; 
+  height: 100px;
+  text-align: center;
+  margin-left: 40px;  
+}
+
+.imagen-mkt{
+  width: 200px; 
+  height: 100px;
+  text-align: center; 
+  margin-left: 40px; 
+}
+
+/*Boton de CV*/
+.download-btn {
+  background-color: #6e4b16;
+  color: #f0e1c6;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.download-btn:hover {
+  background-color: #dabe96;
+  color: #6e4b16;
+}
+
+.Exp-1{
+  font-weight: bold;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #6e4b16;
+  color: #fff;
+  padding: 15px 0;
+  font-size: 0.9rem;
+  margin-top: 40px;
 }
