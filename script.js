@@ -7,4 +7,3 @@ document.addEventListener("DOMContentLoaded", () => {
     }, i * 150);
   });
 });
- 
